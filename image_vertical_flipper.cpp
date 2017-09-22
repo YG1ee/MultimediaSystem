@@ -39,6 +39,8 @@ int main() {
 		WIDTH*HEIGHT*TYPE,
 		fp2
 	);
+	
+	fclose(fp2);
 
 	return 0;
 }
